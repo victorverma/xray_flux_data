@@ -138,8 +138,9 @@ for (file in list.files(here("data/raw/1m/"), full.names = TRUE)) {
 # (2) https://ngdc.noaa.gov/stp/satellite/goes/doc/GOES_XRS_readme.pdf
 primary_secondary_tbl <- tribble(
   ~start_time, ~primary_satellite, ~secondary_satellite,
-  ymd_hm("2023-01-04 00:00"), 16, 18,
-  ymd_hm("2018-01-06 00:00"), 16, 17,
+  ymd_hm("2025-04-07 00:00"), 18, 19,
+  ymd_hm("2023-01-10 00:00"), 16, 18,
+  ymd_hm("2018-06-01 00:00"), 16, 17,
   ymd_hm("2017-02-07 00:00"), 16, 15,
   ymd_hm("2016-06-09 17:30"), 15, 13,
   ymd_hm("2016-05-16 17:00"), 14, 15,
