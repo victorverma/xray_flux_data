@@ -1,7 +1,13 @@
 {
   "bioconductor.version": null,
   "external.libraries": [],
-  "ignored.packages": [],
+  "ignored.packages": [
+    "Matrix",
+    "MASS",
+    "mgcv",
+    "nlme",
+    "lattice"
+  ],
   "package.dependency.fields": [
     "Imports",
     "Depends",
