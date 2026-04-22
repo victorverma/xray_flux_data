@@ -35,7 +35,8 @@ urls <- c(
   goes15 = "https://www.ncei.noaa.gov/data/goes-space-environment-monitor/access/science/xrs/goes15/xrsf-l2-avg1m_science/sci_xrsf-l2-avg1m_g15_s20100407_e20200304_v2-2-1.nc",
   goes16 = "https://data.ngdc.noaa.gov/platforms/solar-space-observing-satellites/goes/goes16/l2/data/xrsf-l2-avg1m_science/sci_xrsf-l2-avg1m_g16_s20170207_e20250406_v2-2-1.nc",
   goes17 = "https://data.ngdc.noaa.gov/platforms/solar-space-observing-satellites/goes/goes17/l2/data/xrsf-l2-avg1m_science/sci_xrsf-l2-avg1m_g17_s20180601_e20230110_v2-2-1.nc",
-  goes18 = "https://data.ngdc.noaa.gov/platforms/solar-space-observing-satellites/goes/goes18/l2/data/xrsf-l2-avg1m_science/sci_xrsf-l2-avg1m_g18_s20220617_e20260420_v2-2-1.nc"
+  goes18 = "https://data.ngdc.noaa.gov/platforms/solar-space-observing-satellites/goes/goes18/l2/data/xrsf-l2-avg1m_science/sci_xrsf-l2-avg1m_g18_s20220617_e20260420_v2-2-1.nc",
+  goes19 = "https://data.ngdc.noaa.gov/platforms/solar-space-observing-satellites/goes/goes19/l2/data/xrsf-l2-avg1m_science/sci_xrsf-l2-avg1m_g19_s20240920_e20260420_v2-2-1.nc"
 )
 
 mcmapply(download_data, urls, names(urls), mc.cores = detectCores()) %>%
